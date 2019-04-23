@@ -1,5 +1,5 @@
 let canvas = document.getElementById("sandbox"),
-context = canvas.getContext("2d");
+    context = canvas.getContext("2d"),
     square, circle;
 square = new Path2D();
 
@@ -13,4 +13,4 @@ context.stroke(square);
 circle = new Path2D();
 circle.arc(150,150,100,0,2* Math.PI);
 
-context.fill(circle);
+context.stroke(circle);
