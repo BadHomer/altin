@@ -1,0 +1,39 @@
+html {
+    background: #000000;
+    background-image: url(1.JPG);
+    background-position: 13%  0%;
+}
+
+body {
+    background: #000000;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2em 2em 4em;
+}
+A {
+    color: #ffffff; /* Цвет текста */
+    background: #000; /* Цвет фона */
+    padding: 2px; /* Поля вокруг текста */
+   }
+a.button7 {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  background: rgb(0,0,0);
+  box-shadow: 0 -3px rgb(0,0,0) inset;
+  transition: 0.2s;
+} 
+p.bb{
+    font-weight: 100%;
+}
+a.button7:hover { background: grey; }
+a.button7:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(70,70,70) inset;
+}
